@@ -14,19 +14,57 @@ h1, h2, h3, h4 {
   font-family: "Roboto", sans-serif;
 }
 
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.main-left {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
 .section {
   height: 100vh;
   width: 100%;
 }
 
 .background--one {
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100hv;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background--one .block-section--one {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.background--one .block-section--one h1 {
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 32px;
 }
 
 .background--two {
   background-size: cover;
   background-repeat: no-repeat;
+}
+.background--two .block-section--two {
+  display: flex;
+  align-items: center;
+  margin: 90px 0 0 90px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */

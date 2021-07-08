@@ -6,7 +6,7 @@ Módulo de boas práticas.
 `
 
 let footer = `
-    <div class="footer">
+    <div class="footer-container">
         <p>
             ${textGama}
         </p>

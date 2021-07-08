@@ -11,8 +11,8 @@ let Home = {
             ${homeSectionOne}
             ${homeSectionTwo}
             ${floatImage}
-          </div>
-      `;
+          </div >
+  `;
 
     return view
   },

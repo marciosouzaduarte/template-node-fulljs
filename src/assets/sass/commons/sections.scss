@@ -4,11 +4,47 @@
 }
 
 .background--one {
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .block-section--one {
+        width: 100%;
+        display: block;
+        text-align: center;
+
+        & h1 {
+            font-weight: 400;
+            font-size: 22px;
+            margin-bottom: 32px;
+        }
+    }
 }
 
 .background--two {
     background-size: cover;
     background-repeat: no-repeat;
+
+    & .block-section--two {
+        display: flex;
+        align-items: center;
+        margin: 90px 0 0 90px;
+        
+        & .text-block-two {
+        
+        }
+
+    }
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+  }
