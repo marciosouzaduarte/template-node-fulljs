@@ -1,0 +1,20 @@
+@media (max-width: 600px) {
+    .background--two {
+        height: 1200px;
+
+        & .block-section--two {
+            display: block;
+            margin-top: 20px;
+
+            & p {
+                text-align: center;
+                margin-left: 0;
+                margin-top: 40px;
+            }
+
+            & img {
+                margin: 0 auto;
+            }
+        }
+    }
+}
